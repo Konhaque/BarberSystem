@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#2f3640">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/barber"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"/>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:gravity="center"
+               android:layout_marginBottom="30dp">
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:src="@drawable/balanca_branca"
+                   android:id="@+id/balanca"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#fff"
+                   android:text="Balanço"
+                   android:layout_marginTop="155dp"
+                   android:textSize="25dp"
+                   android:fontFamily="serif"
+                   android:layout_marginLeft="30dp"/>
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:src="@drawable/rosto_1"
+                   android:layout_toRightOf="@id/balanca"
+                   android:layout_marginLeft="40dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#fff"
+                   android:text="Clientes"
+                   android:layout_marginTop="155dp"
+                   android:layout_toRightOf="@id/balanca"
+                   android:textSize="25dp"
+                   android:fontFamily="serif"
+                   android:layout_marginLeft="70dp"/>
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:src="@drawable/caderno_branco"
+                   android:layout_marginTop="220dp"
+                   android:id="@+id/caderno"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#fff"
+                   android:text="Registro"
+                   android:layout_marginTop="375dp"
+                   android:textSize="25dp"
+                   android:fontFamily="serif"
+                   android:layout_marginLeft="30dp"/>
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:src="@drawable/dinheiro_branco"
+                   android:layout_marginTop="220dp"
+                   android:layout_toRightOf="@id/caderno"
+                   android:layout_marginLeft="40dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#fff"
+                   android:text="Pagamentos"
+                   android:layout_marginTop="375dp"
+                   android:textSize="25dp"
+                   android:layout_toRightOf="@id/caderno"
+                   android:fontFamily="serif"
+                   android:layout_marginLeft="40dp"/>
+
+
+
+           </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

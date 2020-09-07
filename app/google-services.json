@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83518843252",
+    "firebase_url": "https://barbersystem-87e69.firebaseio.com",
+    "project_id": "barbersystem-87e69",
+    "storage_bucket": "barbersystem-87e69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83518843252:android:5e2698578543bf621d2421",
+        "android_client_info": {
+          "package_name": "com.projetobeta.barbersystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83518843252-nn2nvio1b7m2lrjiu9ov5l6tm1nrc97e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projetobeta.barbersystem",
+            "certificate_hash": "c6c85c9225384d51613ead4b04b58ceaee067c16"
+          }
+        },
+        {
+          "client_id": "83518843252-iot6uraq4n9b1p5ivpheppnh1u88lf30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLGRImL0HBk6Mlt6y6NWmZ5oPOmn5BPAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83518843252-iot6uraq4n9b1p5ivpheppnh1u88lf30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
