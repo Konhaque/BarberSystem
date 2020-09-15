@@ -16,15 +16,17 @@
         android:layout_marginTop="50dp"/>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/container"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="50dp">
         <EditText
+            android:id="@+id/cpf_cnpj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="CPF/CNPJ"
+            android:inputType="number"
             android:textColor="#000"
             android:maxLength="14"
             android:layout_marginTop="20dp"
@@ -32,14 +34,17 @@
             android:layout_marginRight="10dp"
             android:textColorHint="#000"/>
          <EditText
+             android:id="@+id/senha"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_marginTop="70dp"
              android:hint="Senha"
              android:layout_marginLeft="10dp"
              android:layout_marginRight="10dp"
+             android:inputType="textPassword"
              android:textColor="#000"
-             android:textColorHint="#000"/>
+             android:textColorHint="#000"
+             android:layout_marginBottom="75dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,6 +57,7 @@
     </FrameLayout>
 
     <Button
+        android:id="@+id/logar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Entrar"
@@ -67,6 +73,7 @@
         android:layout_marginTop="50dp"/>
 
     <Button
+        android:id="@+id/cadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#95afc0"

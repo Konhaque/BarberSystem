@@ -75,6 +75,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center"
+                    android:inputType="number"
                     android:textColor="#000"
                     android:textColorHint="#000"/>
                 <EditText
@@ -133,6 +134,7 @@
                     android:layout_marginRight="10dp"
                     android:hint="Senha"
                     android:gravity="center"
+                    android:inputType="textPassword"
                     android:textColor="#000"
                     android:textColorHint="#000"/>
 
@@ -144,6 +146,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:hint="Confirmar Senha"
+                    android:inputType="textPassword"
                     android:gravity="center"
                     android:textColor="#000"
                     android:textColorHint="#000"/>
