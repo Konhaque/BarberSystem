@@ -9,6 +9,9 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 
 public class FullScrean {
+    public FullScrean(){
+
+    }
     public FullScrean(@NonNull Activity activity){
         DisplayMetrics displayMetrics = new DisplayMetrics();
         activity.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
