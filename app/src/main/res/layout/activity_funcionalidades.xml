@@ -8,5 +8,4 @@
     android:orientation="vertical"
     tools:context=".Funcionalidades"
     android:id="@+id/set_tela">
-
 </LinearLayout>

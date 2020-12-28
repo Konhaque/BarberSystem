@@ -43,6 +43,7 @@
                    android:layout_marginLeft="30dp"/>
 
                <ImageView
+                   android:id="@+id/clientes"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
                    android:src="@drawable/rosto_1"
@@ -65,7 +66,7 @@
                    android:layout_height="150dp"
                    android:src="@drawable/caderno_branco"
                    android:layout_marginTop="220dp"
-                   android:id="@+id/caderno"/>
+                   android:id="@+id/registro"/>
                <TextView
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
@@ -77,11 +78,12 @@
                    android:layout_marginLeft="30dp"/>
 
                <ImageView
+                   android:id="@+id/pagamento"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
                    android:src="@drawable/dinheiro_branco"
                    android:layout_marginTop="220dp"
-                   android:layout_toRightOf="@id/caderno"
+                   android:layout_toRightOf="@id/registro"
                    android:layout_marginLeft="40dp"/>
 
                <TextView
@@ -91,7 +93,7 @@
                    android:text="Pagamentos"
                    android:layout_marginTop="375dp"
                    android:textSize="25dp"
-                   android:layout_toRightOf="@id/caderno"
+                   android:layout_toRightOf="@id/registro"
                    android:fontFamily="serif"
                    android:layout_marginLeft="40dp"/>
 
